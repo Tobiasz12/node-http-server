@@ -9,10 +9,10 @@ server.on('request', function (request, response) {
 	        response.setHeader("Content-Type", "image/jpeg");
 	        response.end(data);
         });	     
-   	} else {
-	    response.setHeader("Content-Type", "text/html; charset=utf-8");
-	    response.write('<h1>Hello World</h1>');
-	    response.end();     
+    } else {
+    	response.setHeader("Content-Type", "text/html; charset=utf-8");
+    	response.write('<h1>Hello World</h1>');
+    	response.end();     
     }
    
    
